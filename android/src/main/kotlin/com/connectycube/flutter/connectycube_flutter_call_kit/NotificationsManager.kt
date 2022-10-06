@@ -44,7 +44,7 @@ fun showCallNotification(
 
     )
 
-    var ringtone: Uri
+    val ringtone: Uri
 
     val customRingtone = getString(context, "ringtone")
     Log.d("NotificationsManager", "customRingtone $customRingtone")

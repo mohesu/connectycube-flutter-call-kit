@@ -44,7 +44,7 @@ class IncomingCallActivity : Activity() {
     private var callUserInfo: String? = null
 
 
-    override fun onCreate(@Nullable savedInstanceState: Bundle?) {
+    override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
         setContentView(resources.getIdentifier("activity_incoming_call", "layout", packageName))
